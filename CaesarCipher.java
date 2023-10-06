@@ -28,16 +28,6 @@ public class CaesarCipher {
         System.err.println("Valid options are 'encode' or 'decode'");
         System.exit(1); 
     }
-
-    // Handles the case when the input string is empty
-    if (word.isEmpty()) {
-        // Handle empty input gracefully
-        System.out.println("n = 0: " + word);
-        for (int i = 1; i < 26; i++) {
-            System.out.println("n = " + i + ": " + word);
-        }
-        System.exit(1);
-    }
     
     // Checks if user entered only lowercase letters
     if (!word.matches("[a-z]+")) {
