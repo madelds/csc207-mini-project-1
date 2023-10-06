@@ -8,3 +8,6 @@ who I worked with during this project and what exact
 resources I used.
 
 2: I added introductory comments for each of my classes.
+
+3: In CaesarCipher.java, I added a condition that handles
+the case when the input string is empty.

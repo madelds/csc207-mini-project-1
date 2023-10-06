@@ -1,6 +1,6 @@
 /**
  * Encodes or decodes a string given by the user using 
- * a keyword (also given by the user) to shift the text.
+ * a keyword (also given by the user) to shift the text.javac
  * @author Madel Sibal
  * September 7, 2023
  */
